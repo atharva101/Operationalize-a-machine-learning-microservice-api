@@ -1,0 +1,13 @@
+deployment.apps "udacity_prediction" created
+NAME                                 READY   STATUS                  RESTARTS   AGE
+udacity_prediction-6ff8b6967-llw6r   0/1     ContainerCreating       0          39s
+sevice "udacity_prediction" exposed
+
+
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
