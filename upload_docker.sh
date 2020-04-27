@@ -9,8 +9,11 @@ export $dockerpath=atharva11/udacity-project:latest
 
 # Step 2:  
 # Authenticate & tag
-docker tag developmet:latest $dockerpath
+docker login --username atharva11
 echo "Docker ID and Image: $dockerpath"
+docker tag developmet:latest $dockerpath
+
+
 
 # Step 3:
 # Push image to a docker repository
